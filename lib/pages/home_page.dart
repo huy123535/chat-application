@@ -36,20 +36,7 @@ class _HomePageState extends State<HomePage> {
           icon: const Icon(Icons.search)),
         ],
       ),
-      drawer: const MyDrawer(), // body: UserTile(
-      //   text: "Username",
-      //   onTap: () {
-      //     //tapped on a user -> go to chat page
-      //     Navigator.push(
-      //       context,
-      //       MaterialPageRoute(
-      //         builder: (context) => ChatPage(
-      //           receiverEmail: "Username",
-      //         ),
-      //       ),
-      //     );
-      //   },
-      // ),
+      drawer: const MyDrawer(),
     );
   }
 }
